@@ -10,11 +10,11 @@ import java.util.function.Function;
 @SpringBootApplication
 public class HelloworldApplication {
 
-	@RequestMapping("/")
+	/*@RequestMapping("/")
 	public String hello()
 	{
 		return "Hello World";
-	}
+	}*/
 	public static void main(String[] args) {
 		SpringApplication.run(HelloworldApplication.class, args);
 	}
